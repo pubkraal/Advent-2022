@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 import re
-import collections
 
 INSTRUCTIONRE = re.compile(r"move (\d+) from (\d+) to (\d+)")
 
