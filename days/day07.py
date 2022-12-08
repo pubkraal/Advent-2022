@@ -8,7 +8,7 @@ NODE = namedtuple("Node", ["name", "size", "type", "children"])
 def main():
     lines = []
     with open("../input/07.txt") as rd:
-        lines = [l.strip() for l in rd.readlines()]
+        lines = [line.strip() for line in rd.readlines()]
 
     # print(len(lines))
     print("p1:", part1(lines))
